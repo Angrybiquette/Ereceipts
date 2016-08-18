@@ -2,6 +2,10 @@ E-receipts - Nouveau site V2
 
 Login Page
 
+http://hpics.li/931737b
+
 Password Page
+
+http://hpics.li/c783210
 
 Register Page
