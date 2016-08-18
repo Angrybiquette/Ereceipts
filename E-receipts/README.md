@@ -9,3 +9,5 @@ Password Page
 http://hpics.li/c783210
 
 Register Page
+
+http://hpics.li/9c3fee3
