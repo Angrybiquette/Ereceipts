@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> E-receipts ~ Login </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="https://colorlib.com/polygon/gentelella/css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.css" rel="stylesheet">
+  </head>
+
+  <body class="login">
+    <div>
+      <a class="hiddenanchor" id="signup"></a>
+      <a class="hiddenanchor" id="signin"></a>
+
+<!-- Login part -->
+
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <section class="login_content">
+            <form>
+              <h1>Identifiant</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Nom" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Mot de passe" required="" />
+              </div>
+              <div>
+                <a class="btn btn-default submit" href="index.html">Login</a>
+                <a class="reset_pass" href="password.html">Mot de passe perdu ?</a>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link">Nouveau ?
+                  <a href="#signup" class="to_register"> Créez votre compte </a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+
+                <div>
+                  <h1><i class="fa fa-paw"></i> E-receipts </h1>
+                  <p>©2016 Tous droit réservés. E-receipts, c'est plus fort que toi. Confidentialité et Conditions</p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+
+<!-- Register part -->
+
+        <div id="register" class="animate form registration_form">
+          <section class="login_content">
+            <form>
+              <h1>Créer un compte</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Nom" required="" />
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Email" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Mot de passe" required="" />
+              </div>
+              <div>
+                <a class="btn btn-default submit" href="index.html">S'inscrire</a>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link">Déja membre ?
+                  <a href="#signin" class="to_register"> Login </a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+
+                <div>
+                  <h1><i class="fa fa-paw"></i> E-receipts </h1>
+                  <p>©2016 Tous droit réservés. E-receipts, c'est plus fort que toi. Confidentialité et Conditions</p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
